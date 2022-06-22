@@ -1,0 +1,55 @@
+
+
+============================== 2022-06-21 19:16:26.686178 | 5491b208-63df-46fd-a134-7f28be2d263d ==============================
+19:16:26.686188 [info ] [MainThread]: Running with dbt=1.1.0
+19:16:26.686543 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/nitigoel/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learn_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:16:26.686737 [debug] [MainThread]: Tracking: tracking
+19:16:26.700820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c3b2ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c3b2310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c3b2220>]}
+19:16:26.703403 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.9/site-packages/dbt/include/starter_project
+19:39:02.580269 [info ] [MainThread]: Profile learn_dbt written to /Users/nitigoel/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+19:39:02.581572 [info ] [MainThread]: 
+Your new dbt project "learn_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+19:39:02.582262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c375820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c375cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c375490>]}
+
+
+============================== 2022-06-21 19:42:39.475442 | 078763f6-a56f-4679-82ce-fe5ca5b9cf10 ==============================
+19:42:39.475452 [info ] [MainThread]: Running with dbt=1.1.0
+19:42:39.475758 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/nitigoel/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+19:42:39.475998 [debug] [MainThread]: Tracking: tracking
+19:42:39.492918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c68e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c6a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c6760>]}
+19:42:39.494676 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/nitigoel/.dbt
+19:42:39.495413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c6a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c6760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f8c6370>]}
+
+
+============================== 2022-06-21 19:56:11.387542 | bc907d06-d094-4df2-8596-627c0ecc8ce8 ==============================
+19:56:11.387552 [info ] [MainThread]: Running with dbt=1.1.0
+19:56:11.387901 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/nitigoel/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+19:56:11.388102 [debug] [MainThread]: Tracking: tracking
+19:56:11.405024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2ec8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2eca60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2ec760>]}
+19:56:12.195705 [debug] [MainThread]: Executing "git --help"
+19:56:12.207950 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+19:56:12.209089 [debug] [MainThread]: STDERR: "b''"
+19:56:12.216058 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+19:56:12.218760 [debug] [MainThread]: Using snowflake connection "debug"
+19:56:12.219017 [debug] [MainThread]: On debug: select 1 as id
+19:56:12.219275 [debug] [MainThread]: Opening a new connection, currently in state init
+19:56:13.289725 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.07 seconds
+19:56:13.293451 [debug] [MainThread]: On debug: Close
+19:56:13.422310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cebaaf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11cebaf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ced1700>]}
+19:56:13.654155 [debug] [MainThread]: Connection 'debug' was properly closed.
